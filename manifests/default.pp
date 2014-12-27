@@ -1,3 +1,4 @@
-package {'apache2':
-    ensure  => installed,
+package {
+    'git': ensure  => installed;
+	'vim': ensure => installed;
 }
