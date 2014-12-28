@@ -14,3 +14,12 @@ mongodb::db { 'mydb':
   user          => 'user',
   password_hash => 'a15fbfca5e3a758be80ceaf42458bcd8',
 }
+
+include 'nodejs'
+
+include 'npm'
+
+package { 'sails':
+  ensure	=> present,
+  provider	=> 'npm'
+}
