@@ -10,3 +10,6 @@
 [submodule "modules/mongodb"]
 	path = modules/mongodb
 	url = https://github.com/puppetlabs/puppetlabs-mongodb.git
+[submodule "modules/nodejs"]
+	path = modules/nodejs
+	url = https://github.com/willdurand/puppet-nodejs.git
